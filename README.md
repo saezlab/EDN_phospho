@@ -9,7 +9,7 @@ A2058 cell-lines.
 
 ## Organisation of the repository
 
-+ [Preparing inputs](): Here we prepare the PHONEMeS inputs objects from the processed data.
++ [Preparing inputs](https://github.com/saezlab/EDN_phospho/tree/master/Input-Data): Here we prepare the PHONEMeS inputs objects from the processed data.
 + [Building background networks](): Here we prepare the background network which is used for the training EDN signalling to data.
 + [Analysis](): Here we perform the PHONEMeS time-point analysis to train our models.
 + [Results](): Here we store the analysis results.
