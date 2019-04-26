@@ -1,6 +1,6 @@
 # EDN_phospho
 
-Elucidating essential kinases of endothelin signalling by logic modelling of phosphoproteomics data
+Elucidating essential kinases of endothelin signalling by logic modelling of phosphoproteomics data.
 
 ## Purpose
 
