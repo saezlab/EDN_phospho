@@ -11,8 +11,9 @@ A2058 cell-lines.
 
 + [Preparing inputs](https://github.com/saezlab/EDN_phospho/tree/master/Input-Data): Here we prepare the PHONEMeS inputs objects from the processed data.
 + [Building background networks](https://github.com/saezlab/EDN_phospho/tree/master/Background-Network): Here we prepare the background network which is used for the training EDN signalling to data.
-+ [Analysis](): Here we perform the PHONEMeS time-point analysis to train our models.
-+ [Results](): Here we store the analysis results.
++ [Analysis](https://github.com/saezlab/EDN_phospho/tree/master/Analysis): Here we perform the PHONEMeS time-point analysis to train our models.
++ [Polishing Networks](https://github.com/saezlab/EDN_phospho/tree/master/Polish-Networks): Here we assign attributes to network features (edges and nodes) based on the analysis results for better visualization with Cytoscape.
++ [Results](https://github.com/saezlab/EDN_phospho/tree/master/Results): Here we store the analysis results.
 
 ## Requirements
 
