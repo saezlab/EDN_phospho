@@ -1,0 +1,180 @@
+source,target,is_directed,is_stimulation,is_inhibition,references,Modification,Reason,sources,targets,,source,target,Ref
+P29992,P17252,1,1,0,,ADD,,GNA11,PKC,,P12931,P49407,Signor;BioGRID;PhosphoPoint;MIMP;phosphoELM17456551;17456469;10347142;9388255;16432186;19202075
+P50148,P17252,1,1,0,,ADD,,GNAQ,PKC,,P28482,P49407,Signor;PhosphoPoint;HPRD;PhosphoSite_dir;MIMP;HPRD-phos;PhosphoSite19153083;10347142;15456867;10347142;15456867;17322306;20068231;19651622;18767875;19413330;10347142;9388255
+Q5JWF2,P17612,1,1,0,,ADD,,GNAS1,PKA,,P27361,P49407,Signor;PhosphoPoint;HPRD;MIMP;HPRD-phos;PhosphoSite19153083;10347142;15456867;17322306;20068231;19651622;18767875;19413330;10347142;9388255
+P63092,P17612,1,1,0,,ADD,,GNAS2,PKA,,P49407,P07550,Laudanna_effects;HPRD;CA1;Laudanna_sigflow;Wang11171997;16407241
+P63096,P17612,1,0,1,,ADD,,GNAI1,PKA,,P49407,P35372,Laudanna_effects;CA1;Laudanna_sigflow;Wang11861651
+P04899,P17612,1,0,1,,ADD,,GNAI2,PKA,,P49407,P55085,Laudanna_effects;CA1;Laudanna_sigflow;Wang10725339
+P08754,P17612,1,0,1,,ADD,,GNAI3,PKA,,P32121,Q8NER1,TRIP24695785;22952227
+P09471,P17612,1,0,1,,ADD,,GNAO,PKA,,P08069,P49407,Laudanna_effects;IntAct;Laudanna_sigflow;Wang21685939
+P50148,P24530,1,1,0,,ADD,,GNAQ,ETBR,,Q99835,P49407,Signor;IntAct15618519;23074268;23877428
+P29992,Q96RR4,1,1,0,Frigo 2010 CaMKKI AMPK motility,ADD,,GNA11,CAMKKII,,Q00987,P49407,Laudanna_effects;BioGRID;IntAct;Laudanna_sigflow;Wang18544533;21081496;21466165;12538596;11588219;15878855;19879840
+P29992,Q13554,1,1,0,,ADD,,GNA11,CaMKIIb,,Q9UP38,P49407,Laudanna_effects;ACSN;Laudanna_sigflow;Wang
+P50148,Q13554,1,1,0,,ADD,,GNAQ,CaMKIIb,,P68400,P32121,Laudanna_effects;BioGRID;PhosphoPoint;PhosphoSite_dir;MIMP;phosphoELM;Laudanna_sigflow;Wang;PhosphoSite;Signor;HPRD;HPRD-phos;PhosphoNetworks11877451;11877451;11877451;17620599;11877451;11877451
+Q9UBI6,P17612,1,0,1,17251915,REMOVE,Not interpreted correctly from review,GBG12,PKA,,Q02750,P32121,InnateDB;Signor28169830;11226259
+P24530,P29474,1,1,0,10510297,REMOVE,Not in Omnipath anymore,EDNRB,NOS3,,Q99835,P32121,Signor;IntAct15618519;23074268;23877428
+Q9UBI6,P31751,1,1,0,Signor16293724,REMOVE,Involves PI3K In the paper,GBG12,AKT2,,P19784,P32121,Laudanna_effects;PhosphoPoint;MIMP;Laudanna_sigflow;Wang;Signor;HPRD;HPRD-phos11877451;11877451
+P62879,P48729,1,0,0,ACSN;IntAct21988832,REMOVE,Not directed/Y2H screen,GBB2,KC1A,,P49407,P30556,Laudanna_effects;HPRD;IntAct;Laudanna_sigflow;Wang17498700;11579203
+P62873,P21731,1,1,0,BioGRID;Laudanna_effects;Laudanna_sigflow;Wang15782186;12399457,REMOVE,Wrong directionality,GBB1_HUMAN,TA2R_HUMAN,Thromboxane A2 receptor (TXA2-R) (Prostanoid TP receptor),P49407,O14640,Laudanna_effects;SignaLink3;HPRD;Laudanna_sigflow11742073;11742073
+Q14344,P21731,1,1,0,Laudanna_effects;BioGRID;HPRD;STRING;Laudanna_sigflow;Wang10488151;8290554;12399457;15782186;8290554;10395940,REMOVE,Wrong directionality,GNA13_HUMAN,TA2R_HUMAN,Thromboxane A2 receptor (TXA2-R) (Prostanoid TP receptor),P49407,O14641,Laudanna_effects;BioGRID;HPRD;SignaLink3;Laudanna_sigflow11742073;11742073;11742073
+P50148,P21731,1,0,1,STRING;BioGRID;HPRD15782186;12726995;21940795;20590159;12399457;15134434;9152406;12193606,REMOVE,Wrong directionality,GNAQ_HUMAN,TA2R_HUMAN,Thromboxane A2 receptor (TXA2-R) (Prostanoid TP receptor),P49407,Q9UP38,Laudanna_effects;CA1;Laudanna_sigflow;Wang11742073
+P29992,P21731,1,0,1,STRING;BioGRID;HPRD23493750;12193606;9152406,REMOVE,Wrong directionality,GNA11_HUMAN,TA2R_HUMAN,Thromboxane A2 receptor (TXA2-R) (Prostanoid TP receptor),P49407,P62873,Laudanna_effects;BioGRID;Laudanna_sigflow;Wang18729826
+P63096,P61073,1,1,0,STRING;Laudanna_effects;Laudanna_sigflow;Wang;HPRD10506573,REMOVE,No direct; includes Shp recruitment,GNAI1_HUMAN,CXCR4_HUMAN,C-X-C chemokine receptor type 4 (CXC-R4) (CXCR-4) (FB22) (Fusin) (HM89) (LCR1) (Leukocyte-derived seven transmembrane domain receptor) (LESTR) (Lipopolysaccharide-associated protein 3) (LAP-3) (LPS-associated protein 3) (NPYRL) (Stromal cell-derived factor 1 receptor) (SDF-1 receptor) (CD antigen CD184),P49407,Q5JWF2,Laudanna_effects;IntAct;Laudanna_sigflow;Wang23353685
+P08754,P08908,1,0,0,STRING;HPRD8218170,REMOVE,Wrong directionality,GNAI3_HUMAN,5HT1A_HUMAN,5-hydroxytryptamine receptor 1A (5-HT-1A) (5-HT1A) (G-21) (Serotonin receptor 1A),P49407,P25963,Laudanna_effects;BioGRID;Laudanna_sigflow;Wang;InnateDB;HPRD;IntAct;SignaLink315173580;15125834;19879840
+P29992,P28223,1,0,0,STRING;HPRD11916537,REMOVE,Wrong directionality,GNA11_HUMAN,5HT2A_HUMAN,5-hydroxytryptamine receptor 2A (5-HT-2) (5-HT-2A) (Serotonin receptor 2A),P49407,Q9Y496,Signor;ACSN18497258
+P50148,P28223,1,0,0,STRING;HPRD11916537,REMOVE,Wrong directionality,GNAQ_HUMAN,5HT2A_HUMAN,5-hydroxytryptamine receptor 2A (5-HT-2) (5-HT-2A) (Serotonin receptor 2A),P32121,Q9Y496,Signor;ACSN;IntAct23074268;16908539;23877428
+P29992,P41595,1,0,0,STRING;HPRD11916537;8621713,REMOVE,Wrong directionality,GNA11_HUMAN,5HT2B_HUMAN,5-hydroxytryptamine receptor 2B (5-HT-2B) (5-HT2B) (Serotonin receptor 2B),P49407,Q08499,Laudanna_effects;BioGRID;CA1;Laudanna_sigflow;Wang12552097;12399592;19372219;14500724
+P50148,P41595,1,0,0,STRING;HPRD11916537,REMOVE,Wrong directionality,GNAQ_HUMAN,5HT2B_HUMAN,5-hydroxytryptamine receptor 2B (5-HT-2B) (5-HT2B) (Serotonin receptor 2B),P49407,Q99835,ACSN;SignaLink3;IntAct15618519;23877428
+Q14344,P25101,1,0,0,ACSN,REMOVE,Wrong directionality,GNA13_HUMAN,EDNRA_HUMAN,Endothelin-1 receptor (Endothelin A receptor) (ET-A) (ETA-R) (hET-AR),P49407,P12931,Laudanna_effects;BioGRID;PhosphoPoint;CA1;Laudanna_sigflow;Wang10753943;16432186;19202075
+P62873,Q9NPG1,1,0,0,ACSN,REMOVE,Wrong directionality,GBB1_HUMAN,FZD3_HUMAN,Frizzled-3 (Fz-3) (hFz3),P49407,Q00987,SignaLink3;BioGRID;IntAct18544533;17303558;12538596;11588219;15878855;18544533;21081496;21466165;12538596;11588219;15878855;19879840
+P16520,Q9NPG1,1,0,0,ACSN,REMOVE,Wrong directionality,GBB3_HUMAN,FZD3_HUMAN,Frizzled-3 (Fz-3) (hFz3),,,
+P63211,Q9NPG1,1,0,0,ACSN,REMOVE,Wrong directionality,GBG1_HUMAN,FZD3_HUMAN,Frizzled-3 (Fz-3) (hFz3),P24530,P49407,
+P62873,Q99835,1,0,0,ACSN,REMOVE,Wrong directionality,GBB1_HUMAN,SMO_HUMAN,Smoothened homolog (SMO) (Protein Gx),P24530,P32121,
+P62879,Q99835,1,0,0,ACSN,REMOVE,Wrong directionality,GBB2_HUMAN,SMO_HUMAN,Smoothened homolog (SMO) (Protein Gx),P32121,P04049,InnateDB;ACSN;HPRD11226259
+P16520,Q99835,1,0,0,ACSN,REMOVE,Wrong directionality,GBB3_HUMAN,SMO_HUMAN,Smoothened homolog (SMO) (Protein Gx),P49407,Q99683,Laudanna_effects;BioGRID;IntAct;Laudanna_sigflow;Wang19782076;19306926
+P63211,Q99835,1,0,0,ACSN,REMOVE,Wrong directionality,GBG1_HUMAN,SMO_HUMAN,Smoothened homolog (SMO) (Protein Gx),,,
+Q9UBI6,Q99835,1,0,0,ACSN,REMOVE,Wrong directionality,GBG12_HUMAN,SMO_HUMAN,Smoothened homolog (SMO) (Protein Gx),P32121,P28482,InnateDB;Laudanna_effects;ACSN;BioGRID;HPRD;IntAct;SignaLink3;Laudanna_sigflow;Wang11226259;15699045;17620599;25241761
+P59768,Q99835,1,0,0,ACSN,REMOVE,Wrong directionality,GBG2_HUMAN,SMO_HUMAN,Smoothened homolog (SMO) (Protein Gx),P32121,P27361,Laudanna_effects;ACSN;BioGRID;IntAct;Laudanna_sigflow;Wang25241761;12473660
+P63215,Q99835,1,0,0,ACSN,REMOVE,Wrong directionality,GBG3_HUMAN,SMO_HUMAN,Smoothened homolog (SMO) (Protein Gx),P49407,Q16539,InnateDB;Laudanna_effects;SignaLink3;Laudanna_sigflow;Wang15364949;16709866
+Q14344,P25116,1,0,0,ACSN;BioGRID;SPIKE;HPRD8290554;23773523;21331223;16189514;8290554;10922491,REMOVE,Wrong directionality,GNA13_HUMAN,PAR1_HUMAN,Proteinase-activated receptor 1 (PAR-1) (Coagulation factor II receptor) (Thrombin receptor),P49407,P28482,Laudanna_effects;ACSN;PhosphoPoint;HPRD;SignaLink3;Laudanna_sigflow1536495;10347142;9388255
+P62873,P25098,1,0,0,ACSN;BioGRID17548351;10744734,REMOVE,Wrong directionality,GBB1_HUMAN,ARBK1_HUMAN,Beta-adrenergic receptor kinase 1 (Beta-ARK-1) (EC 2.7.11.15) (G-protein coupled receptor kinase 2),P49407,P27361,Laudanna_effects;ACSN;PhosphoPoint;HPRD;SignaLink3;Laudanna_sigflow;Wang1536495;10347142;9388255
+P04899,P25101,1,0,0,ACSN;HPRD7882989,REMOVE,Wrong directionality,GNAI2_HUMAN,EDNRA_HUMAN,Endothelin-1 receptor (Endothelin A receptor) (ET-A) (ETA-R) (hET-AR),P49407,P53779,Laudanna_effects;BioGRID;IntAct;Laudanna_sigflow;Wang11356842;19782076;19879840
+P50148,P25101,1,0,0,ACSN;STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,EDNRA_HUMAN,Endothelin-1 receptor (Endothelin A receptor) (ET-A) (ETA-R) (hET-AR),P32121,P53779,InnateDB;BioGRID;HPRD;IntAct;Wang11356842;19782076;18408005;11356842;11090355
+P29992,P25101,1,0,0,ACSN;STRING;HPRD10789830,REMOVE,Wrong directionality,GNA11_HUMAN,EDNRA_HUMAN,Endothelin-1 receptor (Endothelin A receptor) (ET-A) (ETA-R) (hET-AR),,,
+P63096,P21453,1,0,0,Laudanna_effects;BioGRID;HPRD;STRING;Laudanna_sigflow;Wang8626678;8626678,REMOVE,Wrong directionality,GNAI1_HUMAN,S1PR1_HUMAN,Sphingosine 1-phosphate receptor 1 (S1P receptor 1) (S1P1) (Endothelial differentiation G-protein coupled receptor 1) (Sphingosine 1-phosphate receptor Edg-1) (S1P receptor Edg-1) (CD antigen CD363),,,
+Q14344,Q9UBY5,1,0,0,Laudanna_effects;Laudanna_sigflow;Wang,REMOVE,Wrong directionality,GNA13_HUMAN,LPAR3_HUMAN,Lysophosphatidic acid receptor 3 (LPA receptor 3) (LPA-3) (Lysophosphatidic acid receptor Edg-7),,,
+P63096,Q96RI0,1,0,0,Laudanna_effects;Laudanna_sigflow;Wang,REMOVE,Wrong directionality,GNAI1_HUMAN,PAR4_HUMAN,Proteinase-activated receptor 4 (PAR-4) (Coagulation factor II receptor-like 3) (Thrombin receptor-like 3),,,
+Q03113,O95136,1,0,0,Laudanna_effects;Laudanna_sigflow;Wang,REMOVE,Wrong directionality,GNA12_HUMAN,S1PR2_HUMAN,Sphingosine 1-phosphate receptor 2 (S1P receptor 2) (S1P2) (Endothelial differentiation G-protein coupled receptor 5) (Sphingosine 1-phosphate receptor Edg-5) (S1P receptor Edg-5),,,
+Q14344,O95136,1,0,0,Laudanna_effects;Laudanna_sigflow;Wang;HPRD10488065,REMOVE,Wrong directionality,GNA13_HUMAN,S1PR2_HUMAN,Sphingosine 1-phosphate receptor 2 (S1P receptor 2) (S1P2) (Endothelial differentiation G-protein coupled receptor 5) (Sphingosine 1-phosphate receptor Edg-5) (S1P receptor Edg-5),,,
+P09471,Q9H228,1,0,0,Laudanna_effects;Laudanna_sigflow;Wang;HPRD11069896,REMOVE,Wrong directionality,GNAO_HUMAN,S1PR5_HUMAN,Sphingosine 1-phosphate receptor 5 (S1P receptor 5) (S1P5) (Endothelial differentiation G-protein-coupled receptor 8) (Sphingosine 1-phosphate receptor Edg-8) (S1P receptor Edg-8),,,
+Q03113,O95977,1,0,0,Laudanna_effects;Laudanna_sigflow;Wang;HPRD12761884,REMOVE,Wrong directionality,GNA12_HUMAN,S1PR4_HUMAN,Sphingosine 1-phosphate receptor 4 (S1P receptor 4) (S1P4) (Endothelial differentiation G-protein coupled receptor 6) (Sphingosine 1-phosphate receptor Edg-6) (S1P receptor Edg-6),,,
+Q14344,O95977,1,0,0,Laudanna_effects;Laudanna_sigflow;Wang;HPRD12767884,REMOVE,Wrong directionality,GNA13_HUMAN,S1PR4_HUMAN,Sphingosine 1-phosphate receptor 4 (S1P receptor 4) (S1P4) (Endothelial differentiation G-protein coupled receptor 6) (Sphingosine 1-phosphate receptor Edg-6) (S1P receptor Edg-6),,,
+P63092,P43119,1,0,0,Laudanna_sigflow;BioGRID;HPRD16352729;16460020;11895442;16114876;12488443,REMOVE,Wrong directionality,GNAS2_HUMAN,PI2R_HUMAN,Prostacyclin receptor (Prostaglandin I2 receptor) (PGI receptor) (PGI2 receptor) (Prostanoid IP receptor),,,
+P09471,P41143,1,0,0,Laudanna_sigflow;HPRD8393523;11259487,REMOVE,Wrong directionality,GNAO_HUMAN,OPRD_HUMAN,Delta-type opioid receptor (D-OR-1) (DOR-1),,,
+P08754,P30542,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,AA1R_HUMAN,Adenosine receptor A1,,,
+P29992,P11229,1,0,0,STRING,REMOVE,Wrong directionality,GNA11_HUMAN,ACM1_HUMAN,Muscarinic acetylcholine receptor M1,,,
+P50148,P11229,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,ACM1_HUMAN,Muscarinic acetylcholine receptor M1,,,
+P08754,P08172,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,ACM2_HUMAN,Muscarinic acetylcholine receptor M2,,,
+P08754,P08173,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,ACM4_HUMAN,Muscarinic acetylcholine receptor M4,,,
+P29992,P35348,1,0,0,STRING,REMOVE,Wrong directionality,GNA11_HUMAN,ADA1A_HUMAN,Alpha-1A adrenergic receptor (Alpha-1A adrenoreceptor) (Alpha-1A adrenoceptor) (Alpha-1C adrenergic receptor) (Alpha-adrenergic receptor 1c),,,
+P50148,P35348,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,ADA1A_HUMAN,Alpha-1A adrenergic receptor (Alpha-1A adrenoreceptor) (Alpha-1A adrenoceptor) (Alpha-1C adrenergic receptor) (Alpha-adrenergic receptor 1c),,,
+P08754,P08913,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,ADA2A_HUMAN,Alpha-2A adrenergic receptor (Alpha-2 adrenergic receptor subtype C10) (Alpha-2A adrenoreceptor) (Alpha-2A adrenoceptor) (Alpha-2AAR),,,
+Q5JWF2,P07550,1,0,0,STRING,REMOVE,Wrong directionality,GNAS1_HUMAN,ADRB2_HUMAN,Beta-2 adrenergic receptor (Beta-2 adrenoreceptor) (Beta-2 adrenoceptor),,,
+P29992,P46663,1,0,0,STRING,REMOVE,Wrong directionality,GNA11_HUMAN,BKRB1_HUMAN,B1 bradykinin receptor (B1R) (BK-1 receptor),,,
+P08754,P46663,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,BKRB1_HUMAN,B1 bradykinin receptor (B1R) (BK-1 receptor),,,
+P50148,P32238,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,CCKAR_HUMAN,Cholecystokinin receptor type A (CCK-A receptor) (CCK-AR) (Cholecystokinin-1 receptor) (CCK1-R),,,
+P08754,P34972,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,CNR2_HUMAN,Cannabinoid receptor 2 (CB-2) (CB2) (hCB2) (CX5),,,
+P08754,P35462,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,DRD3_HUMAN,D(3) dopamine receptor (Dopamine D3 receptor),,,
+Q5JWF2,P47871,1,0,0,STRING,REMOVE,Wrong directionality,GNAS1_HUMAN,GLR_HUMAN,Glucagon receptor (GL-R),,,
+P29992,P30968,1,0,0,STRING,REMOVE,Wrong directionality,GNA11_HUMAN,GNRHR_HUMAN,Gonadotropin-releasing hormone receptor (GnRH receptor) (GnRH-R),,,
+P29992,Q13255,1,0,0,STRING,REMOVE,Wrong directionality,GNA11_HUMAN,GRM1_HUMAN,Metabotropic glutamate receptor 1 (mGluR1),,,
+P50148,Q13255,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,GRM1_HUMAN,Metabotropic glutamate receptor 1 (mGluR1),,,
+P08754,Q14831,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,GRM7_HUMAN,Metabotropic glutamate receptor 7 (mGluR7),,,
+P50148,P30550,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,GRPR_HUMAN,Gastrin-releasing peptide receptor (GRP-R) (GRP-preferring bombesin receptor),,,
+P63096,Q92633,1,0,0,STRING,REMOVE,Wrong directionality,GNAI1_HUMAN,LPAR1_HUMAN,Lysophosphatidic acid receptor 1 (LPA receptor 1) (LPA-1) (Lysophosphatidic acid receptor Edg-2),,,
+P50148,Q92633,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,LPAR1_HUMAN,Lysophosphatidic acid receptor 1 (LPA receptor 1) (LPA-1) (Lysophosphatidic acid receptor Edg-2),,,
+Q03113,Q9HBW0,1,0,0,STRING,REMOVE,Wrong directionality,GNA12_HUMAN,LPAR2_HUMAN,Lysophosphatidic acid receptor 2 (LPA receptor 2) (LPA-2) (Lysophosphatidic acid receptor Edg-4),,,
+P63096,Q9HBW0,1,0,0,STRING,REMOVE,Wrong directionality,GNAI1_HUMAN,LPAR2_HUMAN,Lysophosphatidic acid receptor 2 (LPA receptor 2) (LPA-2) (Lysophosphatidic acid receptor Edg-4),,,
+P63096,Q9UBY5,1,0,0,STRING,REMOVE,Wrong directionality,GNAI1_HUMAN,LPAR3_HUMAN,Lysophosphatidic acid receptor 3 (LPA receptor 3) (LPA-3) (Lysophosphatidic acid receptor Edg-7),,,
+P50148,P43657,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,LPAR6_HUMAN,Lysophosphatidic acid receptor 6 (LPA receptor 6) (LPA-6) (Oleoyl-L-alpha-lysophosphatidic acid receptor) (P2Y purinoceptor 5) (P2Y5) (Purinergic receptor 5) (RB intron encoded G-protein coupled receptor),,,
+P50148,P28336,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,NMBR_HUMAN,Neuromedin-B receptor (NMB-R) (Epididymis tissue protein Li 185a) (Neuromedin-B-preferring bombesin receptor),,,
+P08754,P41143,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,OPRD_HUMAN,Delta-type opioid receptor (D-OR-1) (DOR-1),,,
+P08754,P41145,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,OPRK_HUMAN,Kappa-type opioid receptor (K-OR-1) (KOR-1),,,
+P08754,P35372,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,OPRM_HUMAN,Mu-type opioid receptor (M-OR-1) (MOR-1) (Mu opiate receptor) (Mu opioid receptor) (MOP) (hMOP),,,
+P08754,P41146,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,OPRX_HUMAN,Nociceptin receptor (Kappa-type 3 opioid receptor) (KOR-3) (Orphanin FQ receptor),,,
+P50148,P55085,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,PAR2_HUMAN,"Proteinase-activated receptor 2 (PAR-2) (Coagulation factor II receptor-like 1) (G-protein coupled receptor 11) (Thrombin receptor-like 1) [Cleaved into: Proteinase-activated receptor 2, alternate cleaved 1; Proteinase-activated receptor 2, alternate cleaved 2]",,,
+P50148,Q96RI0,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,PAR4_HUMAN,Proteinase-activated receptor 4 (PAR-4) (Coagulation factor II receptor-like 3) (Thrombin receptor-like 3),,,
+P50148,P34995,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,PE2R1_HUMAN,Prostaglandin E2 receptor EP1 subtype (PGE receptor EP1 subtype) (PGE2 receptor EP1 subtype) (Prostanoid EP1 receptor),,,
+P63096,P43115,1,0,0,STRING,REMOVE,Wrong directionality,GNAI1_HUMAN,PE2R3_HUMAN,Prostaglandin E2 receptor EP3 subtype (PGE receptor EP3 subtype) (PGE2 receptor EP3 subtype) (PGE2-R) (Prostanoid EP3 receptor),,,
+P50148,P25105,1,0,0,STRING,REMOVE,Wrong directionality,GNAQ_HUMAN,PTAFR_HUMAN,Platelet-activating factor receptor (PAF-R) (PAFr),,,
+P08754,P30872,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,SSR1_HUMAN,Somatostatin receptor type 1 (SS-1-R) (SS1-R) (SS1R) (SRIF-2),,,
+P08754,P30874,1,0,0,STRING,REMOVE,Wrong directionality,GNAI3_HUMAN,SSR2_HUMAN,Somatostatin receptor type 2 (SS-2-R) (SS2-R) (SS2R) (SRIF-1),,,
+P08754,P48039,1,0,0,STRING;BioGRID;HPRD17215244;10598579;17215244;10598579,REMOVE,Wrong directionality,GNAI3_HUMAN,MTR1A_HUMAN,Melatonin receptor type 1A (Mel-1A-R) (Mel1a receptor),,,
+P63096,P48039,1,0,0,STRING;BioGRID;HPRD17215244;17215244,REMOVE,Wrong directionality,GNAI1_HUMAN,MTR1A_HUMAN,Melatonin receptor type 1A (Mel-1A-R) (Mel1a receptor),,,
+P08754,P21453,1,0,0,STRING;BioGRID;HPRD8626678;8626678,REMOVE,Wrong directionality,GNAI3_HUMAN,S1PR1_HUMAN,Sphingosine 1-phosphate receptor 1 (S1P receptor 1) (S1P1) (Endothelial differentiation G-protein coupled receptor 1) (Sphingosine 1-phosphate receptor Edg-1) (S1P receptor Edg-1) (CD antigen CD363),,,
+P63096,Q99500,1,0,0,STRING;HPRD10488065,REMOVE,Wrong directionality,GNAI1_HUMAN,S1PR3_HUMAN,Sphingosine 1-phosphate receptor 3 (S1P receptor 3) (S1P3) (Endothelial differentiation G-protein coupled receptor 3) (Sphingosine 1-phosphate receptor Edg-3) (S1P receptor Edg-3),,,
+P30679,P25116,1,0,0,STRING;HPRD10644723,REMOVE,Wrong directionality,GNA15_HUMAN,PAR1_HUMAN,Proteinase-activated receptor 1 (PAR-1) (Coagulation factor II receptor) (Thrombin receptor),,,
+P29992,P24530,1,0,0,STRING;HPRD10789830,REMOVE,Wrong directionality,GNA11_HUMAN,EDNRB_HUMAN,Endothelin B receptor (ET-B) (ET-BR) (Endothelin receptor non-selective type),,,
+P63096,Q9H3N8,1,0,0,STRING;HPRD10973974,REMOVE,Wrong directionality,GNAI1_HUMAN,HRH4_HUMAN,Histamine H4 receptor (H4R) (HH4R) (AXOR35) (G-protein coupled receptor 105) (GPRv53) (Pfi-013) (SP9144),,,
+P08754,P14416,1,0,0,STRING;HPRD10978845,REMOVE,Wrong directionality,GNAI3_HUMAN,DRD2_HUMAN,D(2) dopamine receptor (Dopamine D2 receptor),,,
+P63096,P35462,1,0,0,STRING;HPRD10978845,REMOVE,Wrong directionality,GNAI1_HUMAN,DRD3_HUMAN,D(3) dopamine receptor (Dopamine D3 receptor),,,
+P63096,P21554,1,0,0,STRING;HPRD11168387,REMOVE,Wrong directionality,GNAI1_HUMAN,CNR1_HUMAN,Cannabinoid receptor 1 (CB-R) (CB1) (CANN6),,,
+P63096,P41143,1,0,0,STRING;HPRD11259487,REMOVE,Wrong directionality,GNAI1_HUMAN,OPRD_HUMAN,Delta-type opioid receptor (D-OR-1) (DOR-1),,,
+P63096,P08913,1,0,0,STRING;HPRD11732925,REMOVE,Wrong directionality,GNAI1_HUMAN,ADA2A_HUMAN,Alpha-2A adrenergic receptor (Alpha-2 adrenergic receptor subtype C10) (Alpha-2A adrenoreceptor) (Alpha-2A adrenoceptor) (Alpha-2AAR),,,
+P63096,P35372,1,0,0,STRING;HPRD12068084,REMOVE,Wrong directionality,GNAI1_HUMAN,OPRM_HUMAN,Mu-type opioid receptor (M-OR-1) (MOR-1) (Mu opiate receptor) (Mu opioid receptor) (MOP) (hMOP),,,
+P50148,P46663,1,0,0,STRING;HPRD12130679,REMOVE,Wrong directionality,GNAQ_HUMAN,BKRB1_HUMAN,B1 bradykinin receptor (B1R) (BK-1 receptor),,,
+P50148,O14842,1,0,0,STRING;HPRD12629551;12496284,REMOVE,Wrong directionality,GNAQ_HUMAN,FFAR1_HUMAN,Free fatty acid receptor 1 (G-protein coupled receptor 40),,,
+P50148,O15552,1,0,0,STRING;HPRD12711604,REMOVE,Wrong directionality,GNAQ_HUMAN,FFAR2_HUMAN,Free fatty acid receptor 2 (G-protein coupled receptor 43),,,
+P63096,P51681,1,0,0,STRING;HPRD15251452,REMOVE,Wrong directionality,GNAI1_HUMAN,CCR5_HUMAN,C-C chemokine receptor type 5 (C-C CKR-5) (CC-CKR-5) (CCR-5) (CCR5) (CHEMR13) (HIV-1 fusion coreceptor) (CD antigen CD195),,,
+P08754,P51681,1,0,0,STRING;HPRD15251452,REMOVE,Wrong directionality,GNAI3_HUMAN,CCR5_HUMAN,C-C chemokine receptor type 5 (C-C CKR-5) (CC-CKR-5) (CCR-5) (CCR5) (CHEMR13) (HIV-1 fusion coreceptor) (CD antigen CD195),,,
+P63096,P49286,1,0,0,STRING;HPRD17215244,REMOVE,Wrong directionality,GNAI1_HUMAN,MTR1B_HUMAN,Melatonin receptor type 1B (Mel-1B-R) (Mel1b receptor),,,
+P08754,P49286,1,0,0,STRING;HPRD17215244,REMOVE,Wrong directionality,GNAI3_HUMAN,MTR1B_HUMAN,Melatonin receptor type 1B (Mel-1B-R) (Mel1b receptor),,,
+P50148,P20309,1,0,0,STRING;HPRD7629074,REMOVE,Wrong directionality,GNAQ_HUMAN,ACM3_HUMAN,Muscarinic acetylcholine receptor M3,,,
+P63096,P30874,1,0,0,STRING;HPRD7914078,REMOVE,Wrong directionality,GNAI1_HUMAN,SSR2_HUMAN,Somatostatin receptor type 2 (SS-2-R) (SS2-R) (SS2R) (SRIF-1),,,
+P08754,P25025,1,0,0,STRING;HPRD8316840,REMOVE,Wrong directionality,GNAI3_HUMAN,CXCR2_HUMAN,C-X-C chemokine receptor type 2 (CXC-R2) (CXCR-2) (CDw128b) (GRO/MGSA receptor) (High affinity interleukin-8 receptor B) (IL-8R B) (IL-8 receptor type 2) (CD antigen CD182),,,
+P09471,P35372,1,0,0,STRING;HPRD8393523,REMOVE,Wrong directionality,GNAO_HUMAN,OPRM_HUMAN,Mu-type opioid receptor (M-OR-1) (MOR-1) (Mu opiate receptor) (Mu opioid receptor) (MOP) (hMOP),,,
+P59768,P08172,1,0,0,STRING;HPRD9063897,REMOVE,Wrong directionality,GBG2_HUMAN,ACM2_HUMAN,Muscarinic acetylcholine receptor M2,,,
+P29992,P35368,1,0,0,STRING;HPRD9481484,REMOVE,Wrong directionality,GNA11_HUMAN,ADA1B_HUMAN,Alpha-1B adrenergic receptor (Alpha-1B adrenoreceptor) (Alpha-1B adrenoceptor),,,
+P50148,P35368,1,0,0,STRING;HPRD9481484,REMOVE,Wrong directionality,GNAQ_HUMAN,ADA1B_HUMAN,Alpha-1B adrenergic receptor (Alpha-1B adrenoreceptor) (Alpha-1B adrenoceptor),,,
+P08754,Q92633,1,0,0,STRING;HPRD9600933,REMOVE,Wrong directionality,GNAI3_HUMAN,LPAR1_HUMAN,Lysophosphatidic acid receptor 1 (LPA receptor 1) (LPA-1) (Lysophosphatidic acid receptor Edg-2),,,
+P30679,Q15722,1,0,0,STRING;HPRD9742207,REMOVE,Wrong directionality,GNA15_HUMAN,LT4R1_HUMAN,Leukotriene B4 receptor 1 (LTB4-R 1) (LTB4-R1) (Chemoattractant receptor-like 1) (G-protein coupled receptor 16) (P2Y purinoceptor 7) (P2Y7),,,
+P50148,P30556,1,0,0,STRING;IntAct17498700,REMOVE,Wrong directionality,GNAQ_HUMAN,AGTR1_HUMAN,Type-1 angiotensin II receptor (AT1AR) (AT1BR) (Angiotensin II type-1 receptor) (AT1),,,
+Q03113,Q92633,1,0,0,STRING;Laudanna_effects;Laudanna_sigflow,REMOVE,Wrong directionality,GNA12_HUMAN,LPAR1_HUMAN,Lysophosphatidic acid receptor 1 (LPA receptor 1) (LPA-1) (Lysophosphatidic acid receptor Edg-2),,,
+Q03113,Q9UBY5,1,0,0,STRING;Laudanna_effects;Laudanna_sigflow,REMOVE,Wrong directionality,GNA12_HUMAN,LPAR3_HUMAN,Lysophosphatidic acid receptor 3 (LPA receptor 3) (LPA-3) (Lysophosphatidic acid receptor Edg-7),,,
+P50148,Q9UBY5,1,0,0,STRING;Laudanna_effects;Laudanna_sigflow,REMOVE,Wrong directionality,GNAQ_HUMAN,LPAR3_HUMAN,Lysophosphatidic acid receptor 3 (LPA receptor 3) (LPA-3) (Lysophosphatidic acid receptor Edg-7),,,
+P63096,O95136,1,0,0,STRING;Laudanna_effects;Laudanna_sigflow;Wang;HPRD10488065,REMOVE,Wrong directionality,GNAI1_HUMAN,S1PR2_HUMAN,Sphingosine 1-phosphate receptor 2 (S1P receptor 2) (S1P2) (Endothelial differentiation G-protein coupled receptor 5) (Sphingosine 1-phosphate receptor Edg-5) (S1P receptor Edg-5),,,
+P63096,Q9H228,1,0,0,STRING;Laudanna_effects;Laudanna_sigflow;Wang;HPRD11069896,REMOVE,Wrong directionality,GNAI1_HUMAN,S1PR5_HUMAN,Sphingosine 1-phosphate receptor 5 (S1P receptor 5) (S1P5) (Endothelial differentiation G-protein-coupled receptor 8) (Sphingosine 1-phosphate receptor Edg-8) (S1P receptor Edg-8),,,
+P63096,O95977,1,0,0,STRING;Laudanna_effects;Laudanna_sigflow;Wang;HPRD12761884,REMOVE,Wrong directionality,GNAI1_HUMAN,S1PR4_HUMAN,Sphingosine 1-phosphate receptor 4 (S1P receptor 4) (S1P4) (Endothelial differentiation G-protein coupled receptor 6) (Sphingosine 1-phosphate receptor Edg-6) (S1P receptor Edg-6),,,
+P08754,P21554,1,0,0,STRING;Laudanna_sigflow;HPRD11168387,REMOVE,Wrong directionality,GNAI3_HUMAN,CNR1_HUMAN,Cannabinoid receptor 1 (CB-R) (CB1) (CANN6),,,
+P50148,P01112,1,1,0,Signor;KEGG9235901,REMOVE,No direct interaction,GNAQ_HUMAN,RASH_HUMAN,,,,
+P42336,P01112,1,1,0,InnateDB;KEGG;BioGRID;HPRD;IntAct8665852;14724584;10783161;9150145;9113989;24412244;9150145,REMOVE,No directed interaction,PK3CA_HUMAN,RASH_HUMAN,,,,
+P42336,P01116,1,1,0,InnateDB;KEGG;BioGRID;HPRD;IntAct8665852;14724584;10783161;9150145;9113989;24412244;9150145,REMOVE,No directed interaction,PK3CA_HUMAN,RASK_HUMAN,,,,
+P42336,P01111,1,1,0,KEGG;HPRD8665852;7820549,REMOVE,No directed interaction,PK3CA_HUMAN,RASN_HUMAN,,,,
+P17252,P01116,1,1,0,Laudanna_effects;SignaLink3;Laudanna_sigflow;PhosphoSite;Wang9922370,REMOVE,Speculation in a review,KPCA_HUMAN,RASK_HUMAN,,,,
+P01112,Q02750,1,1,0,ACSN;KEGG;PhosphoPoint;HPRD   796915,REMOVE,Not direct,RASH_HUMAN,MP2K1_HUMAN,,,,
+P01112,P45983,1,1,0,DIP;Laudanna_effects;KEGG;PhosphoPoint;HPRD;Laudanna_sigflow;Wang8137421;8137421;11525649;16810318,REMOVE,Interaction with the protein RASSF1 instead of RAS,RASH_HUMAN,MK08_HUMAN,,,,
+P63000,P48736,1,1,0,Laudanna_effects;Laudanna_sigflow;Wang,REMOVE,Source unclear,RAC1_HUMAN,PK3CG_HUMAN,,,,
+P63000,P31749,1,1,0,Laudanna_effects;ACSN;PhosphoPoint;HPRD;Laudanna_sigflow;Wang10617634,REMOVE,Interacion not shown,RAC1_HUMAN,AKT1_HUMAN,,,,
+P63000,Q05655,1,1,0,Laudanna_effects;HPRD;Laudanna_sigflow;Wang19356729,REMOVE,Only interacion not activation,RAC1_HUMAN,KPCD_HUMAN,,,,
+P12931,P49407,1,1,0,Signor;BioGRID;PhosphoPoint;MIMP;phosphoELM17456551;17456469;10347142;9388255;16432186;19202075,ADD,,SRC_HUMAN,ARRB1_HUMAN,,,,
+P28482,P49407,1,1,0,Signor;PhosphoPoint;HPRD;PhosphoSite_dir;MIMP;HPRD-phos;PhosphoSite19153083;10347142;15456867;10347142;15456867;17322306;20068231;19651622;18767875;19413330;10347142;9388255,ADD,,MK01_HUMAN,ARRB1_HUMAN,,,,
+P27361,P49407,1,1,0,Signor;PhosphoPoint;HPRD;MIMP;HPRD-phos;PhosphoSite19153083;10347142;15456867;17322306;20068231;19651622;18767875;19413330;10347142;9388255,ADD,,MK03_HUMAN,ARRB1_HUMAN,,,,
+P49407,P07550,1,1,0,Laudanna_effects;HPRD;CA1;Laudanna_sigflow;Wang11171997;16407241,ADD,,ARRB1_HUMAN,ADRB2_HUMAN,,,,
+P49407,P35372,1,1,0,Laudanna_effects;CA1;Laudanna_sigflow;Wang11861651,ADD,,ARRB1_HUMAN,OPRM_HUMAN,,,,
+P49407,P55085,1,1,0,Laudanna_effects;CA1;Laudanna_sigflow;Wang10725339,ADD,,ARRB1_HUMAN,PAR2_HUMAN,,,,
+P32121,Q8NER1,1,1,0,TRIP24695785;22952227,ADD,,ARRB2_HUMAN,TRPV1_HUMAN,,,,
+P08069,P49407,1,1,0,Laudanna_effects;IntAct;Laudanna_sigflow;Wang21685939,ADD,,IGF1R_HUMAN,ARRB1_HUMAN,,,,
+Q99835,P49407,1,1,0,Signor;IntAct15618519;23074268;23877428,ADD,,SMO_HUMAN,ARRB1_HUMAN,,,,
+Q00987,P49407,1,1,0,Laudanna_effects;BioGRID;IntAct;Laudanna_sigflow;Wang18544533;21081496;21466165;12538596;11588219;15878855;19879840,ADD,,MDM2_HUMAN,ARRB1_HUMAN,,,,
+Q9UP38,P49407,1,1,0,Laudanna_effects;ACSN;Laudanna_sigflow;Wang,ADD,,FZD1_HUMAN,ARRB1_HUMAN,,,,
+P68400,P32121,1,1,0,Laudanna_effects;BioGRID;PhosphoPoint;PhosphoSite_dir;MIMP;phosphoELM;Laudanna_sigflow;Wang;PhosphoSite;Signor;HPRD;HPRD-phos;PhosphoNetworks11877451;11877451;11877451;17620599;11877451;11877451,ADD,,CSK21_HUMAN,ARRB2_HUMAN,,,,
+Q02750,P32121,1,1,0,InnateDB;Signor28169830;11226259,ADD,,MP2K1_HUMAN,ARRB2_HUMAN,,,,
+Q99835,P32121,1,1,0,Signor;IntAct15618519;23074268;23877428,ADD,,SMO_HUMAN,ARRB2_HUMAN,,,,
+P19784,P32121,1,1,0,Laudanna_effects;PhosphoPoint;MIMP;Laudanna_sigflow;Wang;Signor;HPRD;HPRD-phos11877451;11877451,ADD,,CSK22_HUMAN,ARRB2_HUMAN,,,,
+P49407,P30556,1,1,0,Laudanna_effects;HPRD;IntAct;Laudanna_sigflow;Wang17498700;11579203,ADD,,ARRB1_HUMAN,AGTR1_HUMAN,,,,
+P49407,O14640,1,1,0,Laudanna_effects;SignaLink3;HPRD;Laudanna_sigflow11742073;11742073,ADD,,ARRB1_HUMAN,DVL1_HUMAN,,,,
+P49407,O14641,1,1,0,Laudanna_effects;BioGRID;HPRD;SignaLink3;Laudanna_sigflow11742073;11742073;11742073,ADD,,ARRB1_HUMAN,DVL2_HUMAN,,,,
+P49407,Q9UP38,1,1,0,Laudanna_effects;CA1;Laudanna_sigflow;Wang11742073,ADD,,ARRB1_HUMAN,FZD1_HUMAN,,,,
+P49407,P62873,1,1,0,Laudanna_effects;BioGRID;Laudanna_sigflow;Wang18729826,ADD,,ARRB1_HUMAN,GBB1_HUMAN,,,,
+P49407,Q5JWF2,1,1,0,Laudanna_effects;IntAct;Laudanna_sigflow;Wang23353685,ADD,,ARRB1_HUMAN,GNAS1_HUMAN,,,,
+P49407,P25963,1,1,0,Laudanna_effects;BioGRID;Laudanna_sigflow;Wang;InnateDB;HPRD;IntAct;SignaLink315173580;15125834;19879840,ADD,,ARRB1_HUMAN,IKBA_HUMAN,,,,
+P49407,Q9Y496,1,1,0,Signor;ACSN18497258,ADD,,ARRB1_HUMAN,KIF3A_HUMAN,,,,
+P32121,Q9Y496,1,1,0,Signor;ACSN;IntAct23074268;16908539;23877428,ADD,,ARRB2_HUMAN,KIF3A_HUMAN,,,,
+P49407,Q08499,1,1,0,Laudanna_effects;BioGRID;CA1;Laudanna_sigflow;Wang12552097;12399592;19372219;14500724,ADD,,ARRB1_HUMAN,PDE4D_HUMAN,,,,
+P49407,Q99835,1,1,0,ACSN;SignaLink3;IntAct15618519;23877428,ADD,,ARRB1_HUMAN,SMO_HUMAN,,,,
+P49407,P12931,1,1,0,Laudanna_effects;BioGRID;PhosphoPoint;CA1;Laudanna_sigflow;Wang10753943;16432186;19202075,ADD,,ARRB1_HUMAN,SRC_HUMAN,,,,
+P49407,Q00987,1,1,0,SignaLink3;BioGRID;IntAct18544533;17303558;12538596;11588219;15878855;18544533;21081496;21466165;12538596;11588219;15878855;19879840,ADD,,ARRB1_HUMAN,MDM2_HUMAN,,,,
+P24530,P49407,1,1,0,#N/A,ADD,,EDNRB_HUMAN,ARRB1_HUMAN,,,,
+P24530,P32121,1,1,0,#N/A,ADD,,EDNRB_HUMAN,ARRB2_HUMAN,,,,
+P32121,P04049,1,1,0,InnateDB;ACSN;HPRD11226259,ADD,,ARRB2_HUMAN,RAF1_HUMAN,,,,
+P49407,Q99683,1,1,0,Laudanna_effects;BioGRID;IntAct;Laudanna_sigflow;Wang19782076;19306926,ADD,,ARRB1_HUMAN,M3K5_HUMAN,,,,
+O15530,Q05655,1,1,0,Laudanna_effects;BioGRID;PhosphoPoint;phosphoELM;Laudanna_sigflow;Wang;Signor;HPRD;HPRD-phos,REMOVE,Invalid reference,PDPK1_HUMAN,KPCD_HUMAN,,,,
+P42336,Q05655,1,1,0,Laudanna_effects;KEGG;PhosphoPoint;HPRD;Laudanna_sigflow;Wang   11676480,REMOVE,Invalid reference,PK3CA_HUMAN,KPCD_HUMAN,,,,
+P31749,Q05655,1,1,0,InnateDB;Laudanna_effects;PhosphoNetworks;Laudanna_sigflow;Wang 11410591,REMOVE,Invalid reference,AKT1_HUMAN,KPCD_HUMAN,,,,
+Q9NQ66,Q05655,1,1,0,Laudanna_effects;PhosphoPoint;HPRD;Laudanna_sigflow;Wang 11278470,REMOVE,Invalid reference,PLCB1_HUMAN,KPCD_HUMAN,,,,
+O15530,Q9Y243,1,1,0,,REMOVE,Shortcuts added for PhoneMES paper,PDPK1_HUMAN,AKT_HUMAN,,,,
+O15530,P31751,1,1,0,,REMOVE,Shortcuts added for PhoneMES paper,PDPK1_HUMAN,AKT_HUMAN,,,,
+O15530,P31749,1,1,0,,REMOVE,Shortcuts added for PhoneMES paper,PDPK1_HUMAN,AKT_HUMAN,,,,
+P48736,P31749,1,1,0,,REMOVE,Shortcuts added for PhoneMES paper,PI3K_HUMAN,AKT_HUMAN,,,,
+P42336,P31751,1,1,0,,REMOVE,Shortcuts added for PhoneMES paper,PI3K_HUMAN,AKT_HUMAN,,,,
+P42336,P31749,1,1,0,,REMOVE,Shortcuts added for PhoneMES paper,PI3K_HUMAN,AKT_HUMAN,,,,

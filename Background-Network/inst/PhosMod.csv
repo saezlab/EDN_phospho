@@ -1,0 +1,150 @@
+Kinase,Substrate,Site,Residue,PTM,Source,References,Mod,Reason,Kinase,Substrate
+P04049,P28482,S,29,phosphorylation,HPRD;MIMP,15664191,REMOVE,Kinase and  Substrate are reversed,RAF1_HUMAN,MK01_HUMAN
+Q05655,Q15139,S,205,phosphorylation,,,REMOVE,Kinase is KPCD1 instead of KPCD,KPCD_HUMAN,KPCD1_HUMAN
+Q05655,Q15139,S,219,phosphorylation,,,REMOVE,Kinase is KPCD1 instead of KPCD,KPCD_HUMAN,KPCD1_HUMAN
+P17252,Q15139,S,205,phosphorylation,,,REMOVE,Kinase is KPCD1 instead of KPCD,KPCA_HUMAN,KPCD1_HUMAN
+P17252,Q15139,S,208,phosphorylation,,,REMOVE,Kinase is KPCD1 instead of KPCD,KPCA_HUMAN,KPCD1_HUMAN
+Q15139,Q15139,S,205,phosphorylation,,,ADD,Kinase is KPCD1 instead of KPCD,KPCD1_HUMAN,KPCD1_HUMAN
+Q15139,Q15139,S,208,phosphorylation,,,ADD,Kinase is KPCD1 instead of KPCD,KPCD1_HUMAN,KPCD1_HUMAN
+Q15139,Q15139,S,219,phosphorylation,,,ADD,Kinase is KPCD1 instead of KPCD,KPCD1_HUMAN,KPCD1_HUMAN
+P17612,O60716,S,879,phosphorylation,?,,REMOVE,Misread PKA instead of PKC,KAPCA_HUMAN,CTND1_HUMAN
+P17252,O60716,S,879,phosphorylation,?,,ADD,Misread PKA instead of PKC,KPCA_HUMAN,CTND1_HUMAN
+Q16512,Q92974,S,886,phosphorylation,Signor  ,,REMOVE,Misread: PAK instead of PKN,PKN1_HUMAN,ARHG2_HUMAN
+P31749,Q15118,T,346,phosphorylation,PhosphoSite,27505672,ADD,New PhosphositePlus Entry,AKT1_HUMAN,PDK1_HUMAN
+P31751,Q15118,T,346,phosphorylation,PhosphoSite,27505672,ADD,New PhosphositePlus Entry,AKT2_HUMAN,PDK1_HUMAN
+Q16566,Q9UQM7,S,332,phosphorylation,MIMP;PhosphoSite,,REMOVE,New PhosphositePlus Entry,KCC4_HUMAN,KCC2A_HUMAN
+P42336,P23443,T,390,phosphorylation,HPRD;MIMP,11279232;18669648;20068231,REMOVE,No direct phosphorylation shown,PK3CA_HUMAN,KS6B1_HUMAN
+P42336,P23443,T,252,phosphorylation,PhosphoSite;MIMP,,REMOVE,No direct phosphorylation shown,PK3CA_HUMAN,KS6B1_HUMAN
+P42336,P23443,T,412,phosphorylation,PhosphoSite;MIMP,,REMOVE,No direct phosphorylation shown,PK3CA_HUMAN,KS6B1_HUMAN
+Q13233,P40763,S,727,phosphorylation,Signor,,REMOVE,No direct phosphorylation shown in the paper,M3K1_HUMAN,STAT3_HUMAN
+P06239,P27361,Y,204,phosphorylation,Signor,,REMOVE,No direct phosphorylation shown in the paper,LCK_HUMAN,MK03_HUMAN
+O14920,P19525,T,88,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,IKKB_HUMAN,E2AK2_HUMAN
+O14920,P19525,T,89,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,IKKB_HUMAN,E2AK2_HUMAN
+P46734,P28482,T,63,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K3_HUMAN,MK01_HUMAN
+P46734,P28482,T,185,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K3_HUMAN,MK01_HUMAN
+P46734,P28482,Y,187,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K3_HUMAN,MK01_HUMAN
+P46734,P28482,Y,205,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K3_HUMAN,MK01_HUMAN
+P53671,Q05655,S,302,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,LIMK2_HUMAN,KPCD_HUMAN
+P53671,Q05655,S,304,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,LIMK2_HUMAN,KPCD_HUMAN
+P53671,Q05655,S,306,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,LIMK2_HUMAN,KPCD_HUMAN
+P23443,P23588,S,311,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,KS6B1_HUMAN,IF4B_HUMAN
+P23443,P23588,S,359,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,KS6B1_HUMAN,IF4B_HUMAN
+P23443,P23588,S,406,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,KS6B1_HUMAN,IF4B_HUMAN
+P23443,P23588,S,418,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,KS6B1_HUMAN,IF4B_HUMAN
+P23443,P23588,T,420,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,KS6B1_HUMAN,IF4B_HUMAN
+P23443,P23588,S,442,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,KS6B1_HUMAN,IF4B_HUMAN
+P23443,P23588,S,497,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,KS6B1_HUMAN,IF4B_HUMAN
+P31749,Q05655,S,304,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,AKT_HUMAN,KPCD_HUMAN
+P27361,P51812,S,715,phosphorylation,Signor,,REMOVE,No valid reference can be found,MK03_HUMAN,KS6A3_S715_HUMAN
+P00519,Q05655,S,304,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,ABL1_HUMAN,KPCD_HUMAN
+Q05655,Q05655,S,304,phosphorylation,,17603046,ADD,No valid reference can be found,KPCD_HUMAN,KPCD_HUMAN
+P17252,Q15118,S,396,phosphorylation,,,REMOVE,No valid reference can be found,KPC_HUMAN,PDK1_HUMAN
+P17252,Q15118,S,25,phosphorylation,,,REMOVE,No valid reference can be found,KPC_HUMAN,PDK1_HUMAN
+Q92918,Q16584,S,524,phosphorylation,,,REMOVE,No valid reference can be found,M4K1_HUMAN,M3K11_HUMAN
+O15530,Q13153,T,212,phosphorylation,,,REMOVE,No valid reference can be found,PDPK1_HUMAN,PAK1_HUMAN
+Q13464,P08670,S,66,phosphorylation,,,REMOVE,No valid reference can be found,ROCK1_HUMAN,VIME_HUMAN
+P49137,P08670,S,26,phosphorylation,,,REMOVE,No valid reference can be found,MAPK2_HUMAN,VIME_HUMAN
+P23443,P23588,S,497,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,KS6B1_HUMAN,IF4B_HUMAN
+P23443,P23588,T,420,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,KS6B1_HUMAN,IF4B_HUMAN
+Q15831,Q9P0L2,S,383,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,STK11_HUMAN,MARK1_HUMAN
+P27361,P61978,S,116,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MK03_HUMAN,HNRPK_HUMAN
+P28482,P50548,S,21,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MK01_HUMAN,ERF_HUMAN
+P45983,P61978,S,116,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,JNK_HUMAN,HNRPK_HUMAN
+Q16539,Q15121,S,116,phosphorylation,,,REMOVE,No valid reference can be found,p38_HUMAN,PEA15_HUMAN
+P45983,P61978,S,116,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,JNK_HUMAN,HNRPK_HUMAN
+P53779,P61978,S,116,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,JNK_HUMAN,HNRPK_HUMAN
+P27361,P61978,S,116,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MK03_HUMAN,HNRPK_HUMAN
+P17612,P48729,S,246,phosphorylation,MIMP,,REMOVE,No valid reference can be found,KAPCA_HUMAN,KC1A_HUMAN
+P17252,Q9Y2V2,S,41,phosphorylation,#N/A,,REMOVE,No valid reference can be found,KPC_HUMAN,CHSP1_HUMAN
+P17252,Q9Y2V2,S,52,phosphorylation,#N/A,,REMOVE,No valid reference can be found,KPC_HUMAN,CHSP1_HUMAN
+P17612,P48729,S,246,phosphorylation,MIMP,,REMOVE,No valid reference can be found,KAPCA_HUMAN,KC1A_HUMAN
+P17612,P48729,S,270,phosphorylation,MIMP,,REMOVE,No valid reference can be found,KPCA_HUMAN,KC1A_HUMAN
+Q02750,P28482,T,63,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K1_HUMAN,MK01_HUMAN
+Q02750,P28482,Y,205,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K1_HUMAN,MK01_HUMAN
+P36507,P27361,T,80,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K2_HUMAN,MK03_HUMAN
+P36507,P27361,Y,222,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K2_HUMAN,MK03_HUMAN
+P36507,P27361,S,283,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K2_HUMAN,MK03_HUMAN
+Q02750,P27361,T,80,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K1_HUMAN,MK03_HUMAN
+Q02750,P27361,Y,222,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MP2K1_HUMAN,MK03_HUMAN
+P04049,Q02750,T,292,phosphorylation,MIMP;PhosphoNetworks,,REMOVE,No valid reference can be found,RAF1_HUMAN,MP2K1_HUMAN
+P04049,Q02750,S,298,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,RAF1_HUMAN,MP2K1_HUMAN
+P17252,P35611,S,436,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,KPC_HUMAN,ADDA_HUMAN
+P27361,Q05682,S,724,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MK03_HUMAN,CALD1_HUMAN
+P27361,Q05682,T,730,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MK03_HUMAN,CALD1_HUMAN
+P27361,Q9UQC2,S,543,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,MK03_HUMAN,GAB2_HUMAN
+P68400,P11388,S,1247,phosphorylation,PhosphoNetworks,,REMOVE,No valid reference can be found,CSK21_HUMAN,TOP2A_HUMAN
+P12931,P02545,S,22,phosphorylation,,,REMOVE,Not in omnipath anymore,SRC_HUMAN,LMNA_HUMAN
+Q02156,P47712,S,727,phosphorylation,,,REMOVE,Not in omnipath anymore,KPCE_HUMAN,PA24A_HUMAN
+Q13153,P17812,S,575,phosphorylation,,,REMOVE,Not in omnipath anymore,PAK1_HUMAN,PYRG1_HUMAN
+P06493,P39880,S,1215,phosphorylation,,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,CUX1_HUMAN
+Q13153,P17812,S,574,phosphorylation,,,REMOVE,Not in omnipath anymore,PAK1_HUMAN,PYRG1_HUMAN
+P06493,Q14814,S,180,phosphorylation,,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,MEF2D_HUMAN
+P12931,P02545,S,403,phosphorylation,,,REMOVE,Not in omnipath anymore,SRC_HUMAN,LMNA_HUMAN
+P12931,P07355,S,26,phosphorylation,,,REMOVE,Not in omnipath anymore,SRC_HUMAN,ANXA2_HUMAN
+P43405,P45983,Y,185,phosphorylation,,,REMOVE,Not in omnipath anymore,KSYK_HUMAN,MK08_HUMAN
+P49841,P62753,S,235,phosphorylation,,,REMOVE,Not in omnipath anymore,GSK3B_HUMAN,RS6_HUMAN
+P19525,Q9UQM7,T,253,phosphorylation,,,REMOVE,Not in omnipath anymore,E2AK2_HUMAN,KCC2A_HUMAN
+P19525,Q9UQM7,T,286,phosphorylation,,,REMOVE,Not in omnipath anymore,E2AK2_HUMAN,KCC2A_HUMAN
+Q13535,Q02750,S,25,phosphorylation,,,REMOVE,Not in omnipath anymore,ATR_HUMAN,MP2K1_HUMAN
+O15530,Q16539 ,T,180,phosphorylation,,,REMOVE,Not in omnipath anymore,PDPK1_HUMAN,MK14_HUMAN
+Q15139,O95835,S,909,phosphorylation,?,,REMOVE,Not in omnipath anymore,KPCD1_HUMAN,LATS1_HUMAN
+Q15139,O95835,T,1079,phosphorylation,?,,REMOVE,Not in omnipath anymore,KPCD1_HUMAN,LATS1_HUMAN
+Q15139,O95835,S,633,phosphorylation,?,,REMOVE,Not in omnipath anymore,KPCD1_HUMAN,LATS1_HUMAN
+Q15139,O95835,S,613,phosphorylation,?,,REMOVE,Not in omnipath anymore,KPCD1_HUMAN,LATS1_HUMAN
+P43405,O60825,S,483,phosphorylation,,,REMOVE,Not in omnipath anymore,KSYK_HUMAN,F262_HUMAN
+P43405,O60825,S,466,phosphorylation,,,REMOVE,Not in omnipath anymore,KSYK_HUMAN,F262_HUMAN
+P12931,Q96B36,S,183,phosphorylation,,,REMOVE,Not in omnipath anymore,SRC_HUMAN,AKTS1_HUMAN
+P12931,Q96B36,T,246,phosphorylation,,,REMOVE,Not in omnipath anymore,SRC_HUMAN,AKTS1_HUMAN
+P17252,Q15118,S,393,phosphorylation,?,,REMOVE,Not in omnipath anymore,KPCA_HUMAN,PDK1_HUMAN
+P06493,Q9BZL6,S,710,phosphorylation,?,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,KPCD2_HUMAN
+P06493,Q9BZL6,S,706,phosphorylation,?,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,KPCD2_HUMAN
+P06493,P35269,T,389,phosphorylation,?,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,T2FA_HUMAN
+P06493,P35269,S,385,phosphorylation,?,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,T2FA_HUMAN
+P06493,P09651,S,192,phosphorylation,?,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,ROA1_HUMAN
+P06493,P09651,S,363,phosphorylation,?,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,ROA1_HUMAN
+P06493,P09651,S,364,phosphorylation,?,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,ROA1_HUMAN
+P06493,P09651,S,362,phosphorylation,?,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,ROA1_HUMAN
+P06493,P09651,S,199,phosphorylation,?,,REMOVE,Not in omnipath anymore,CDK1_HUMAN,ROA1_HUMAN
+P17612,Q13085,S,29,phosphorylation,?,,REMOVE,Not in omnipath anymore,KAPCA_HUMAN,ACACA_HUMAN
+P53350,P16070,S,706,phosphorylation,?,,REMOVE,Not in omnipath anymore,PLK1_HUMAN,CD44_HUMAN
+Q13153,P78536,S,791,phosphorylation,?,,REMOVE,Not in omnipath anymore,PAK1_HUMAN,ADA17_HUMAN
+P27361,Q9Y4H2,S,1149,phosphorylation,?,,REMOVE,Not in omnipath anymore,MK03_HUMAN,IRS2_HUMAN
+Q16539,Q9UH99,S,12,phosphorylation,?,,REMOVE,Not in omnipath anymore,p38_HUMAN,SUN2_HUMAN
+O75582,O60343,S,570,phosphorylation,?,,REMOVE,Not in omnipath anymore,KS6A5_HUMAN,TBCD4_HUMAN
+P17252,Q15118,S,396,phosphorylation,?,,REMOVE,Not in omnipath anymore,KPC_HUMAN,PDK1_HUMAN
+O15530,Q53EL6,S,457,phosphorylation,?,,REMOVE,Not in omnipath anymore,PDPK1_HUMAN,PDCD4_HUMAN
+P78527,P07910,S,260,phosphorylation,?,,REMOVE,Not in omnipath anymore,PRKDC_HUMAN,HNRPC_HUMAN
+P17252,P13639,T,57,phosphorylation,?,,REMOVE,Not in omnipath anymore,KPC_HUMAN,EF2_HUMAN
+P12931,P28482,Y,205,phosphorylation,,,REMOVE,Not in omnipath anymore,SRC_HUMAN,MK01_HUMAN
+P12931,P28482,Y,187,phosphorylation,,,REMOVE,Not in omnipath anymore,SRC_HUMAN,MK01_HUMAN
+P05771,Q14847,S,146,phosphorylation,,,REMOVE,Not in the indicated reference,KPCB_HUMAN,LASP1_HUMAN
+Q13177,P62753,S,242,phosphorylation,MIMP;Signor;HPRD,1985906;18669648,REMOVE,PAK2 activity not connected to p sites,PAK2_HUMAN,RS6_HUMAN
+Q13177,P62753,S,235,phosphorylation,MIMP;Signor;HPRD,17322306;18669648;17287340;18767875,REMOVE,PAK2 activity not connected to p sites,PAK2_HUMAN,RS6_HUMAN
+Q13177,P62753,S,236,phosphorylation,MIMP;Signor;HPRD,17322306;18669648;17287340;18767875,REMOVE,PAK2 activity not connected to p sites,PAK2_HUMAN,RS6_HUMAN
+Q13177,P62753,S,240,phosphorylation,MIMP;Signor;HPRD,17322306;18669648;17287340;19007248,REMOVE,PAK2 activity not connected to p sites,PAK2_HUMAN,RS6_HUMAN
+P35236,P28482,Y,187,phosphorylation,,,REMOVE,"phosphatase,not kinase",PTN7_HUMAN,MK01_HUMAN
+P27361,P15336,T,69,phosphorylation,,,REMOVE,Probably artifact,MK03_HUMAN,ATF2_HUMAN
+Q15118,P23443,T,390,phosphorylation,MIMP;HPRD,11279232;18669648;20068231,REMOVE,pyruvate kinase involvement not shown,PDK1_HUMAN,KS6B1_HUMAN
+Q15118,P23443,S,427,phosphorylation,MIMP,,REMOVE,pyruvate kinase involvement not shown,PDK1_HUMAN,KS6B1_HUMAN
+Q15118,P23443,T,252,phosphorylation,MIMP,,REMOVE,pyruvate kinase involvement not shown,PDK1_HUMAN,KS6B1_HUMAN
+Q15118,P23443,T,412,phosphorylation,MIMP,,REMOVE,pyruvate kinase involvement not shown,PDK1_HUMAN,KS6B1_HUMAN
+P07949,P28482,Y,187,phosphorylation,MIMP;Signor;HPRD;PhosphoSite,,REMOVE,questionable methodology,RET_HUMAN,MK01_HUMAN
+P07949,P45983,Y,185,phosphorylation,MIMP;HPRD;PhosphoSite,16153436;18669648,REMOVE,questionable methodology,RET_HUMAN,MK08_HUMAN
+P07949,P45983,Y,185,phosphorylation,MIMP;HPRD;PhosphoSite,16153436;18669648,REMOVE,questionable methodology,RET_HUMAN,MK08_HUMAN
+P07949,Q16539,Y,182,phosphorylation,MIMP;Signor;HPRD;PhosphoSite,16153436;18669648;18452278;16497976;20068231;18088087;17016520;19651622;18691976;19901323,REMOVE,RET-JNK phos not shown,RET_HUMAN,MK14_HUMAN
+P07949,Q16539,T,180,phosphorylation,Signor,,REMOVE,RET-JNK phos not shown,RET_HUMAN,MK14_HUMAN
+Q99683,Q16539,Y,182,phosphorylation,,PIM1 Phosphorylates and Negatively Regulates ASK1-mediated Apoptosis,REMOVE,wrong interpretation,M3K5_HUMAN,MK14_HUMAN
+Q99683,Q16539,T,180,phosphorylation,,PIM1 Phosphorylates and Negatively Regulates ASK1-mediated Apoptosis,REMOVE,wrong interpretation,M3K5_HUMAN,MK14_HUMAN
+Q99683,P45983,T,183,phosphorylation,MIMP;PhosphoSite,PIM1 Phosphorylates and Negatively Regulates ASK1-mediated Apoptosis,REMOVE,wrong interpretation,M3K5_HUMAN,MK08_HUMAN
+Q99683,P45983,Y,185,phosphorylation,MIMP;PhosphoSite,PIM1 Phosphorylates and Negatively Regulates ASK1-mediated Apoptosis,REMOVE,wrong interpretation,M3K5_HUMAN,MK08_HUMAN
+Q13554,Q13131,T,183,phosphorylation,PhosphositePlus,,REMOVE,Wrong Kinase (CamKK instead of CamK),KCC2B_HUMAN,AAPK1_HUMAN
+Q13554,Q13131,T,198,phosphorylation,PhosphositePlus,,REMOVE,Wrong Kinase (CamKK instead of CamK),KCC2B_HUMAN,AAPK1_HUMAN
+Q96RR4,Q13131,T,183,phosphorylation,PhosphositePlus,,ADD,Wrong Kinase (CamKK instead of CamK),KKCC2_HUMAN,AAPK1_HUMAN
+P17612,P04626,T,686,phosphorylation,MIMP;Signor;PhosphoSite,,REMOVE,wrong interpretation,KAPCA_HUMAN,ERBB2_HUMAN
+O15530,P31749,T,450,phosphorylation,,,REMOVE,Not in omnipath anymore,PDPK1_HUMAN,AKT_HUMAN
+O15530,P31751,S,126,phosphorylation,,,REMOVE,Not in omnipath anymore,PDPK1_HUMAN,AKT_HUMAN
+O15530,P31751,T,451,phosphorylation,,,REMOVE,Not in omnipath anymore,PDPK1_HUMAN,AKT_HUMAN
+Q92630,P40763,S,727,phosphorylation,,,REMOVE,Wrong kinase (DYRK1),DYRK2_HUMAN,STAT3_HUMAN
+P28482,Q16204,S,244,phosphorylation,,14712216,ADD,Both ERK isoforms in paper,MK01_HUMAN,CCDC6_HUMAN
+P17252,P02545,T,19,phosphorylation,,,REMOVE,wrong interpretation,KPC_HUMAN,LMNA_T19
+P12931,P02545,T,19,phosphorylation,,,REMOVE,Not in omnipath anymore,SRC_HUMAN,LMNA_T19
