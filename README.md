@@ -28,6 +28,7 @@ Other prerequisites include downloading and installing the following `R` package
 + [igraph](https://igraph.org/r/)
 + [BioNet](https://bioconductor.org/packages/release/bioc/html/BioNet.html)
 + [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html)
++ [XML](https://cran.r-project.org/web/packages/XML/index.html)
 
-The Analysis was run under MAC OS X El Captain machine. Please note that the results might slightly change when running the anlysis from
+The Analysis was run under MAC OS X El Captain machine. Please note that the results might slightly change when running the analysis from
 machines with different OS.
