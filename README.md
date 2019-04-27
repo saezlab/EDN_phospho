@@ -4,7 +4,7 @@ Elucidating essential kinases of endothelin signalling by logic modelling of pho
 
 ## Purpose
 
-Here I provide documentation and the analysis scripts used for generating the time-resolved network models of EDN signalling in UACC257 and
+Here we provide documentation and the analysis scripts used for generating the time-resolved network models of EDN signalling in UACC257 and
 A2058 cell-lines.
 
 ## Organisation of the repository
