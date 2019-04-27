@@ -32,3 +32,7 @@ Other prerequisites include downloading and installing the following `R` package
 + [XML](https://cran.r-project.org/web/packages/XML/index.html)
 
 The Analysis was run under MAC OS X El Captain machine. Please note that the results might slightly change when running the analysis from machines with different OS.
+
+## License
+
+Distributed under the [GNU GPLv3 License](http://www.gnu.org/licenses/gpl-3.0.html).
