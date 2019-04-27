@@ -9,8 +9,8 @@ Below we describe the main resources used to build our background network.
 + We start by adding all the Omnipath K-S interactions as stored in `inst/ptms.txt` file.
 + We identify the protein associated with GPCR signalling in Reactome ([Pathway R-HSA-372790]((http://software.broadinstitute.org/gsea/msigdb/cards/REACTOME_GPCR_DOWNSTREAM_SIGNALING))). This list of proteins is the one stored in `inst/geneset.txt` file.
 + From the list of protein interactions of Omnipath (`inst/Omnipath_interactions.txt`) we select only those that are signed and directed and which are involving the proteins associated to GPCR signalling.
-+ We can add or remove certain Omnipath interactions based on the reasons explaied in the `int/IntMod.csv` and `int\PhosMod.csv` files.
-+ We group some isoform proteins based on how similar are they structurally and functionally. Grouped isoforms are described in `int/Group.csv` file.
++ We can add or remove certain Omnipath interactions based on the reasons explaied in the `inst/IntMod.csv` and `inst/PhosMod.csv` files.
++ We group some isoform proteins based on how similar are they structurally and functionally. Grouped isoforms are described in `inst/Group.csv` file.
 
 ## Generating and storing the background network
 
