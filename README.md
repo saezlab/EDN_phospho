@@ -31,5 +31,4 @@ Other prerequisites include downloading and installing the following `R` package
 + [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html)
 + [XML](https://cran.r-project.org/web/packages/XML/index.html)
 
-The Analysis was run under MAC OS X El Captain machine. Please note that the results might slightly change when running the analysis from
-machines with different OS.
+The Analysis was run under MAC OS X El Captain machine. Please note that the results might slightly change when running the analysis from machines with different OS.
