@@ -9,11 +9,10 @@
 #  email: enio.gjerga@gmail.com
 #
 ##############################################################################
-# 14:01 24/03/2018
+# 14:01 05/02/2019
 # This script is used to produce the GMM objects which are the used as an input
-# for PHONEMeS functions and analysis -- Endothelin _ShortTerm_A2058_new_171201_SiteLevel.csv
+# for PHONEMeS functions and analysis -- Endothelin _ShortTerm_A2058_new_180822_SiteLevel.csv
 
-# setwd("x:/EDN Modelling/Site Level Datasets/")
 library(readr)
 Endothelin_ShortTerm_A2058 <- read_csv("inst/Endothelin _ShortTerm_A2058_new_180822_SiteLevel.csv")
 
