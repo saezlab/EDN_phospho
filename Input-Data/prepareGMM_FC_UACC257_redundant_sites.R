@@ -11,10 +11,9 @@
 ##############################################################################
 # 14:05 24/03/2018
 # This script is used to produce the GMM objects which are the used as an input
-# for PHONEMeS functions and analysis -- Endothelin _ShortTerm_UACC257_new171201_SiteLevel.csv
+# for PHONEMeS functions and analysis -- Endothelin _ShortTerm_UACC257_new180822_SiteLevel.csv
 
 library(readr)
-# setwd("X:/EDN Modelling/Site Level Datasets/")
 Endothelin_ShortTerm_UACC257 <- read_csv("inst/Endothelin _ShortTerm_UACC257_new180822_SiteLevel.csv")
 
 wtFC <- Endothelin_ShortTerm_UACC257[, c("WT_2minFC", "WT_10minFC", "WT_30minFC", "WT_60minFC", "WT_90minFC")] # retrieveing the FC values
