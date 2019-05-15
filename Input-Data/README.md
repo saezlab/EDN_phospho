@@ -1,12 +1,12 @@
 # Preparing Inputs
 
-Here we store the scripts used to build the PHONEMeS inputs used for the analysis from data and their outputs. These inputs are generated simply by running the `R` scripts `prepareGMM_FC_UACC257_redundant_sites.R` and `prepareGMM_FC_A2058_redundant_sites.R` for each cell-lines respecitvely.
+Here we store the scripts used to build the PHONEMeS inputs for the data analysis. These inputs are generated simply by running the `R` scripts `prepareGMM_FC_UACC257_redundant_sites.R` and `prepareGMM_FC_A2058_redundant_sites.R` for each cell-line respecitvely.
 
 ## Steps to build the inputs
 
 Below we describe the main steps followed to build the PHONEMeS inputs.
 
-+ We read the Mass-Spect data `inst/Endothelin _ShortTerm_UACC257_new180822_SiteLevel.csv` and `inst/Endothelin _ShortTerm_A2058_new_180822_SiteLevel.csv` containing the site level informations (fold changes and significance as described in the paper).
++ We read the Mass-Spect data `inst/Endothelin _ShortTerm_UACC257_new180822_SiteLevel.csv` and `inst/Endothelin _ShortTerm_A2058_new_180822_SiteLevel.csv` containing the site level information (fold changes and significance as described in the paper).
 + We `log2` transform the fold changes.
 + We assign a threshold value `threshQ=0.1` to the differential abundance.
 + Based on the data tables, we generate the GMM objects containing a list of matrices for each site. Each matrix contains different values and labels assigned to each measurement at all time-points as below:
