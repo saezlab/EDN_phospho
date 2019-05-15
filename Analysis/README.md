@@ -6,9 +6,10 @@ This directory contains scripts necessary to perform the PHONEMeS analysis. PHON
 
 + First we load our generated background network and data inputs from the previous pre-processing steps.
 + We then load some of the functions used for the time-point PHONEMeS analysis and which are stored in the `/Public` directory.
-+ We specify the names of our conditions as we have them on the `GMM` and `GMM.all` generated objects and in this case, for each condition where we have one time-point.
-+ We run the `PHONEMeS_dt` analysis 100 times where for each iteration we downsample the data. In this case, the analysis is performed by generating an ILP problem which is then read and optimized by the `cplex` solver. All the functions used to generate the problem, optimize it and retrieve the results are called from the `/Public` directory.
-+ The 100 time-specific models are generated, combined and saved as a list
++ We specify the names of our conditions as we have them on the `GMM` and `GMM.all` generated objects ('tp_2min', 'tp_10min', etc.).
++ We run the `PHONEMeS_dt` analysis 100 times where for each iteration we downsample the data with replacement. Like this we retain 61-65% of all measurements across each run. In this case, the analysis is performed by generating an ILP problem which is then read and optimized by the `cplex` solver. All the functions used to generate the problem, optimize it and retrieve the results are called from the `/Public` directory.
++ The 100 time-resolved models are generated, combined and saved as a list
++ The scripts have to be executed once per cell-line and with the corresponding edition of the file names inside the script.
 
 ## Generating and storing the analysis results
 
