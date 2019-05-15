@@ -6,10 +6,11 @@ Here we store the scripts used for combining our network solutions as final resu
 
 + We first combine all the solutions from the 100 iterations (stored in `../Analysis/resList_UACC257.RData` or `../Analysis/resList_A2058.RData`) into a single table.
 + We assign weights to each interaction in the combined solution based on how many times it has appeared across all the 100 models. Higher weight, means that the interaction has appeared more frequently and we are more confident about it's presence.
-+ For each interaction we also assign a label based on which time-point it appears.
++ For each interaction we also assign a label based on which time-point it appears. Earlier time-points prevail over later ones when labeling the edges.
 + Here we also assign node attributes to each of the nodes based on what they represent: `D` for the EDNRB and `P` to measurements.
 + We then map the nodes present in the final solution from UniProt to the more common Gene ID's as based on the mapping table `MappingUniprot_Gene_names 16.46.06.csv`.
 + Finally we retain in the final solution the most confident interactions by removing the ones with assigned weight smaller than 20.
++ The scripts have to be executed for each cell-line (with the corresponding changes in the file names written in the script).
 
 ## Generating and storing the final results
 
