@@ -4,12 +4,12 @@ This directory contains scripts necessary to perform the PHONEMeS analysis. PHON
 
 ## Steps to run the analysis
 
-+ First we load our generated background network and data inputs from the previous analysis results.
-+ We then source some of the functions used for the time-point PHONEMeS analysis and which are stored in the `/Public` directory.
-+ We specify the names of our conditions as we have them on the `GMM` and `GMM.all` generated objects and in this case for each condition we have one time-point.
-+ We run the `PHONEMeS_dt` analysis 100 times where for each run we downsample the data. On this case, the analysis is performed by generating an ILP problem which is then read and optimized by the cplex solver. All the functions used to generate the problem, optimize it and retrieve the results are called from the `/Public` directory.
++ First we load our generated background network and data inputs from the previous pre-processing steps.
++ We then load some of the functions used for the time-point PHONEMeS analysis and which are stored in the `/Public` directory.
++ We specify the names of our conditions as we have them on the `GMM` and `GMM.all` generated objects and in this case, for each condition where we have one time-point.
++ We run the `PHONEMeS_dt` analysis 100 times where for each iteration we downsample the data. In this case, the analysis is performed by generating an ILP problem which is then read and optimized by the `cplex` solver. All the functions used to generate the problem, optimize it and retrieve the results are called from the `/Public` directory.
 + The 100 time-specific models are generated, combined and saved as a list
 
 ## Generating and storing the analysis results
 
-All it takes to perform the anlysis of the networks is to simply run the `executionScript.R`. The analysis might take up to some minutes untill all the iterations are finished. The output of the analysis are saved locally as `resList_UACC257.RData` or `resList_A2058.RData`. These data objects contain the network results obtained for each time-point on each of the iterations.
+All it takes to perform the anlysis of the networks is to simply run the `executionScript.R`. The analysis might take up to some minutes until all the iterations are finished. The output of the analysis are saved locally as `resList_UACC257.RData` or `resList_A2058.RData`. These data objects contain the resulting network obtained from the combination of each time-point and iteration.
