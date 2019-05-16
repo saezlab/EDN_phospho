@@ -12,8 +12,8 @@
 # 12:59 23/03/2018
 # Asigning nodes attributes for better visualization of PHONEMeS networks
 
-# load(file = "../Input-Data/dataGMM_UACC257.RData") # for uacc257
-load(file = "../Input-Data/dataGMM_A2058.RData") # for a2058
+load(file = "../Input-Data/dataGMM_UACC257.RData") # for uacc257
+#load(file = "../Input-Data/dataGMM_A2058.RData") # for a2058
 
 nodesMatrix <- matrix(data = , nrow = (length(GMM.ID$S.cc)+1), ncol = 2)
 nodesMatrix[1, 1] <- "EDNRB_HUMAN"
@@ -24,8 +24,8 @@ nodesMatrix[2:(nrow(nodesMatrix)), 2] <- "P"
 colnames(nodesMatrix) <- c("Species", "nodesP")
 write.table(x = nodesMatrix, file = "inst/nodesAttributes.txt", quote = FALSE, row.names = FALSE, col.names = TRUE, sep = "\t")
 
-# network<-"inst/tpBootstrapAnalysis_UACC257.txt" # for uacc257
-network<-"inst/tpBootstrapAnalysis_A2058.txt" # for a2058
+network<-"inst/tpBootstrapAnalysis_UACC257.txt" # for uacc257
+#network<-"inst/tpBootstrapAnalysis_A2058.txt" # for a2058
 att<-"inst/nodesAttributes.txt"
 
 SIF<-as.matrix(read.table(network, header =TRUE))
@@ -72,11 +72,11 @@ for(ii in 1:nrow(mapping)){
   }
 }
 
-# write.table(sif, file = "../Results/sif_uacc257.txt", quote = FALSE, row.names = FALSE, sep = "\t")
-# write.table(sif[which(as.numeric(sif[, 4])>20), ], file = "../Results/sif_uacc257_red.txt", quote = FALSE, sep = "\t", row.names = FALSE)
-# write.table(nodes_attrib, file = "../Results/attrib_uacc257.txt", quote = FALSE, row.names = FALSE, col.names = TRUE, sep = "\t")
+write.table(sif, file = "../Results/sif_uacc257.txt", quote = FALSE, row.names = FALSE, sep = "\t")
+write.table(sif[which(as.numeric(sif[, 4])>20), ], file = "../Results/sif_uacc257_red.txt", quote = FALSE, sep = "\t", row.names = FALSE)
+write.table(nodes_attrib, file = "../Results/attrib_uacc257.txt", quote = FALSE, row.names = FALSE, col.names = TRUE, sep = "\t")
 
-write.table(sif, file = "../Results/sif_a2058.txt", quote = FALSE, row.names = FALSE, sep = "\t")
-write.table(sif[which(as.numeric(sif[, 4])>20), ], file = "../Results/sif_a2058_red.txt", quote = FALSE, sep = "\t", row.names = FALSE)
-write.table(nodes_attrib, file = "../Results/attrib_a2058.txt", quote = FALSE, row.names = FALSE, col.names = TRUE, sep = "\t")
+#write.table(sif, file = "../Results/sif_a2058.txt", quote = FALSE, row.names = FALSE, sep = "\t")
+#write.table(sif[which(as.numeric(sif[, 4])>20), ], file = "../Results/sif_a2058_red.txt", quote = FALSE, sep = "\t", row.names = FALSE)
+#write.table(nodes_attrib, file = "../Results/attrib_a2058.txt", quote = FALSE, row.names = FALSE, col.names = TRUE, sep = "\t")
 
