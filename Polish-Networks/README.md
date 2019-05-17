@@ -10,7 +10,7 @@ Here we store the scripts used for combining our network solutions as final resu
 + Here we also assign node attributes to each of the nodes based on what they represent: `D` for the EDNRB and `P` to measurements.
 + We then map the nodes present in the final solution from UniProt to the more common Gene ID's as based on the mapping table `MappingUniprot_Gene_names 16.46.06.csv`.
 + Finally we retain in the final solution the most confident interactions by removing the ones with assigned weight smaller than 20.
-+ The scripts have to be executed for each cell-line (with the corresponding changes in the file names written in the script).
++ **The script `visualNetwork_polish.R` has to be executed for each cell-line by changing the commented lines in the script corresponding to the input data, network and output files.**
 
 ## Generating and storing the final results
 
